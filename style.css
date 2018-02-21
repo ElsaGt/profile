@@ -43,6 +43,35 @@ a:hover {
   opacity: 0.6;
 }
 
+#sidebar {
+/*  background-image: url(/images/fond4.jpg);*/
+  background-color: #F4F4F4;
+  opacity: 0.5;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 90px;
+}
+
+#sidebar > ul {
+  list-style-type: none;
+}
+
+#sidebar > ul > li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 25px;
+}
+
+#sidebar > ul > li > a {
+  color: #00043C;
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
