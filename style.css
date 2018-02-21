@@ -1,5 +1,6 @@
 body {
-  background-color: #F4F4F4;
+/*  background-color: #F4F4F4;*/
+  background-image: url(images/fond.jpg);
   font-family: 'Open Sans', sans-serif;
   color: rgb(10,10,10);
   font-size: 16px;
